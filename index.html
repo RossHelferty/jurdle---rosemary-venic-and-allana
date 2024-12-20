@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/27283630fa.js" crossorigin="anonymous"></script>
+    <title>Jurdle - Rosemary, Venice, and Alanna</title>
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/27283630fa.js" crossorigin="anonymous"></script>
+    <title>Jurdle - Rosemary, Venice, and Alanna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="indexhtml">
+    <p class="index">
+        <a href="index.html">Wordle</a>
+        <button id = "newWord">New Word</button>
+        <a href="howto.html"> How To Play</a>
+    </p>
+    <div id="prompt">
+        <h1>Jurdle</h1>
+        <h4>Guess a five letter word</h4>
+    </div>
+    <div id="screen">
+        <!--main text and other stuff goes here-->
+        <!-- game board -->
+        <div class = "gameBoard">
+
+            <div class = "boardRow boardRow--1">
+                <div class = "boardLetter"><span></span></div>
+                <div class = "boardLetter"><span></span></div>
+                <div class = "boardLetter"><span></span></div>
+                <div class = "boardLetter"><span></span></div>
+                <div class = "boardLetter"><span></span></div>
+            </div>
+
+            <div class = "boardRow boardRow--2">
+                <div class = "boardLetter"><span></span></div>
+                <div class = "boardLetter"><span></span></div>
+                <div class = "boardLetter"><span></span></div>
+                <div class = "boardLetter"><span></span></div>
+                <div class = "boardLetter"><span></span></div>
+            </div>
+            
+            <div class = "boardRow boardRow--3">
+                <div class = "boardLetter"><span></span></div>
+                <div class = "boardLetter"><span></span></div>
+                <div class = "boardLetter"><span></span></div>
+                <div class = "boardLetter"><span></span></div>
+                <div class = "boardLetter"><span></span></div>
+            </div>
+
+            <div class = "boardRow boardRow--4">
+                <div class = "boardLetter"><span></span></div>
+                <div class = "boardLetter"><span></span></div>
+                <div class = "boardLetter"><span></span></div>
+                <div class = "boardLetter"><span></span></div>
+                <div class = "boardLetter"><span></span></div>
+            </div>
+           
+            <div class = "boardRow boardRow--5">
+                <div class = "boardLetter"><span></span></div>
+                <div class = "boardLetter"><span></span></div>
+                <div class = "boardLetter"><span></span></div>
+                <div class = "boardLetter"><span></span></div>
+                <div class = "boardLetter"><span></span></div>
+            </div>
+        
+            <div class = "boardRow boardRow--6">
+                <div class = "boardLetter"><span></span></div>
+                <div class = "boardLetter"><span></span></div>
+                <div class = "boardLetter"><span></span></div>
+                <div class = "boardLetter"><span></span></div>
+                <div class = "boardLetter"><span></span></div>
+            </div>
+           
+        </div>
+
+        <!-- keyboard -->
+         <div id = "keyboard">
+
+            <div class = "keyRow">
+                <button class = "keyLetter" id="q">q</button>
+                <button class = "keyLetter" id="w">w</button>
+                <button class = "keyLetter" id="e">e</button>
+                <button class = "keyLetter" id="r">r</button>
+                <button class = "keyLetter" id="t">t</button>
+                <button class = "keyLetter" id="y">y</button>
+                <button class = "keyLetter" id="u">u</button>
+                <button class = "keyLetter" id="i">i</button>
+                <button class = "keyLetter" id="o">o</button>
+                <button class = "keyLetter" id="p">p</button>
+            </div>
+
+            <div class = "keyRow">
+                <button class = "keyLetter" id="a">a</button>
+                <button class = "keyLetter" id="s">s</button>
+                <button class = "keyLetter" id="d">d</button>
+                <button class = "keyLetter" id="f">f</button>
+                <button class = "keyLetter" id="g">g</button>
+                <button class = "keyLetter" id="h">h</button>
+                <button class = "keyLetter" id="j">j</button>
+                <button class = "keyLetter" id="k">k</button>
+                <button class = "keyLetter" id="l">l</button>
+            </div>
+
+            <div class = "keyRow">
+                <button class = "keyLetter keyLetter--enter" id="enter">enter</button>
+                <button class = "keyLetter" id="z">z</button>
+                <button class = "keyLetter" id="x">x</button>
+                <button class = "keyLetter" id="c">c</button>
+                <button class = "keyLetter" id="v">v</button>
+                <button class = "keyLetter" id="b">b</button>
+                <button class = "keyLetter" id="n">n</button>
+                <button class = "keyLetter" id="m">m</button>
+                <button class = "keyLetter keyLetter--delete" id="backspace"><i class="fa-solid fa-delete-left"></i></i></button>
+            </div>
+
+         </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
