@@ -9,9 +9,7 @@
   </b>
   <br>
   <br>
-  Haiiii guyss :3 
-  <br>
-  Alannna, I think that your attempt to sync your branch has resulted in all of the stuff I added yesterday to disappear.
+  I made a different version because nothing commits to the old repository anymore. NOBODY SYNC ANYTHING TO THIS REPOSITORY, JUST COPY PASTE IT IF YOU WANT IT HERE.
 <p>
 <p>- rosemary</p>
 
@@ -33,13 +31,3 @@ If you guys have any questions for me please email me so that I can respond much
 
   
 <hr>
-<p>stuff rosemary's doing:</p>
-<p>- main function that focuses on the game aspect of worldle (ie. recognising words through arrays & stuff)</p>
-<br>
-<p>stuff venice is doing:</p>
-<p>- css & typing to interact with game</p>
-<br>
-<p>stuff alanna can do:</p>
-<p>- help with rosemary's functions in rosemary's branch</p>
-<p>- thourghly beta-test everything</p>
-<p>- it'd be really awesome if you could create a navigation box / main menu that includes a button that calls the promptUser() function so that they can see the how-to again in case they forgot how to play</p>
