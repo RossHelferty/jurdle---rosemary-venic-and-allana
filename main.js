@@ -53,9 +53,13 @@ function howtoplay(){
 
 function type(letter){
     // take new letter
+    letter = letter;
     // find next box to type in
+    let spot = findSpot();
     // type input
+    document.getElementById(spot).innerHTML = letter;
     // return
+    return;
 }
 
 function check(){
@@ -66,4 +70,19 @@ function check(){
 
 function backspace(){
     // remove last placed character (if letter = null kind of statement)
+    let spot = findSpot();
+    spot = spot--;
+    document.getElementById(spot).innerHTML = null;
+    return;
+}
+
+function findSpot(){
+    let box = "";
+    let element = 0;
+    //run through all rows on Jurdle until you find null,return placement
+    do{
+        element++;
+        box = document.getElementById("column" + element);
+    } while (box != null)
+    return box;
 }
